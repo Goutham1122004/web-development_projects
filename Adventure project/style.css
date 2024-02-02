@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url('ps 10.jpg');
+    background-size:cover;
+}    
+a{
+    text-decoration:none;
+}
+
+body ,html{
+    overflow-x:hidden;
+}
+
+.active{
+    color:goldenrod;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ul{
+    list-style:none;
+}
+
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    padding:20px;
+    color:rgb(255, 0, 221);
+
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin:0 30px;
+}
+
+header{
+    width:100vw;
+    height:100vh;
+    background-image:url('nature1.jpg');
+    background-position:bottom;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom:150px;
+    color:rgb(120, 248, 0);
+    text-align:center;
+}
+
+.header-content h2{
+    font-size:4vmin;
+}
+
+.line{
+    width:150px;
+    height:4px;
+    background-color:darkorange;
+    margin:10px auto;
+    border-radius:5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+.ctn{
+    padding:8px 15px;
+    background-color:darkorange;
+    border-radius:30px;
+    color:bisque;
+}
+
+section{
+    width:80%;
+    margin:80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size:4vmin;
+    color:blueviolet;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+ 
+}
+
+.row .col{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col img{
+    width:400px;
+    height:400px;
+    padding:20px;
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 6vmin;
+    color:rgb(26, 143, 221);
+    margin:20px auto;
+}
+
+.col p{
+    color:rgb(224, 240, 0);
+    padding:0px 40px;
+    font-size:3vmin;
+}
+
+.events .ctn{
+    margin-top:30px;
+}
+
+.explore{
+    width:100%;
+    height:100vh;
+    background-image:url('ps\ explore.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+}
+
+
+
+.explore-content{
+    width:50%;
+    padding:50px;
+    color:blanchedalmond;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+ font-size: 7vmin;
+ margin:50px;
+}
+
+.explore-content p{
+    color:rgb(0, 247, 255);
+    font-size: 3vmin;
+}
+
+.explore-content .line{
+    margin-bottom:50px;
+}
+
+.explore-content .ctn{
+    margin-top:40px;
+}
+
+.tours .row .col{
+    width:50%;
+    display:flex;
+}
+
+.col h1{
+    font-size: 5vmin;
+}
+.tours .image-gallery{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  align-items: center;
+}
+
+.image-gallery img{
+    width:300px;
+    display:flex;
+    padding:10px;
+}
+
+.col-image-col{
+    display:flex;
+    padding:10px;
+}
+
+.col p{
+    padding:0px;
+    margin:30px auto;
+}
+
+.footer{
+    width:100%;
+    min-height:150px;
+    padding:20px 80px;
+    margin:0;
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+.footer p{
+    color:blanchedalmond;
+    margin:20px auto;
+    padding:20px auto;
+    font-size: 3vmin;
+}
